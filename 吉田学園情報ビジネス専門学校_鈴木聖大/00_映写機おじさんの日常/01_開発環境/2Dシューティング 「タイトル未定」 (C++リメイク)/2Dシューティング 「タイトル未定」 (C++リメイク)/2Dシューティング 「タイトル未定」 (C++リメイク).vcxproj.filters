@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\main">
+      <UniqueIdentifier>{aa1f39df-d31f-4933-92e8-ce2278cdf24c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\manager">
+      <UniqueIdentifier>{a62c205d-5ca3-48e6-8ca4-d5c5d1484dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\manager\renderer">
+      <UniqueIdentifier>{0354a24c-8c57-433c-9e01-91504bbf604f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\manager\renderer\scene">
+      <UniqueIdentifier>{564e9381-bad9-42a5-9206-5c1a8bd9d1b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\manager\renderer\scene\scene2d">
+      <UniqueIdentifier>{e683701a-8ac8-4496-9863-ccff8039cb6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\manager\input">
+      <UniqueIdentifier>{34ebc438-8583-45da-b0b5-6ae898dbf36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\manager\transition">
+      <UniqueIdentifier>{afd7627c-3083-4032-9c13-ea52338a86f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main\manager\transition\tutorial">
+      <UniqueIdentifier>{8847b20e-776c-4732-9a6e-3a58a2e70776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\main">
+      <UniqueIdentifier>{482d121b-776f-4f40-a01e-fda68a08be1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\main\manager">
+      <UniqueIdentifier>{7d0c1f2a-bd24-43eb-975e-a4101a810057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\main\manager\renderer">
+      <UniqueIdentifier>{d9fab80b-235e-461b-8db1-09e123555c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\main\manager\renderer\scene">
+      <UniqueIdentifier>{23326b95-9cc3-46fa-8f4f-58152f68747c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\main\manager\renderer\scene\scene2d">
+      <UniqueIdentifier>{af3f87cf-a767-40eb-923c-94dd9f6974af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\main\manager\input">
+      <UniqueIdentifier>{e7fea67a-f412-402a-9a44-7edbe983ae1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\main\manager\transition">
+      <UniqueIdentifier>{d20bdbdc-bd90-49d9-8052-0f01b80e98a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\main\manager\transition\tutorial">
+      <UniqueIdentifier>{f2ab7a6b-d95b-4d13-8cbe-d529c4f3c0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\main\manager\transition\ranking">
+      <UniqueIdentifier>{2438aa2e-75a5-4796-98ad-79a7e388c452}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\main\manager\transition</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial.cpp">
+      <Filter>ソース ファイル\main\manager\transition\tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial_game.cpp">
+      <Filter>ソース ファイル\main\manager\transition\tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="tutorial_score_attack.cpp">
+      <Filter>ソース ファイル\main\manager\transition\tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\main\manager\transition</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClear.cpp">
+      <Filter>ソース ファイル\main\manager\transition</Filter>
+    </ClCompile>
+    <ClCompile Include="ranking.cpp">
+      <Filter>ソース ファイル\main\manager\transition</Filter>
+    </ClCompile>
+    <ClCompile Include="score_attack.cpp">
+      <Filter>ソース ファイル\main\manager\transition</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreScreen.cpp">
+      <Filter>ソース ファイル\main\manager\transition</Filter>
+    </ClCompile>
+    <ClCompile Include="select.cpp">
+      <Filter>ソース ファイル\main\manager\transition</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\main\manager\input</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>ソース ファイル\main\manager\input</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>ソース ファイル\main\manager\input</Filter>
+    </ClCompile>
+    <ClCompile Include="mode.cpp">
+      <Filter>ソース ファイル\main\manager\transition</Filter>
+    </ClCompile>
+    <ClCompile Include="scene2d.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClCompile>
+    <ClCompile Include="barrier.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClCompile>
+    <ClCompile Include="door.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClCompile>
+    <ClCompile Include="explosion.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="bg.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="life.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="start_count.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\main\manager\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル\main\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\main\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="number.cpp">
+      <Filter>ソース ファイル\main\manager\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_client.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>ソース ファイル\main\manager\renderer\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tutorial.h">
+      <Filter>ヘッダー ファイル\main\manager\transition\tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial_game.h">
+      <Filter>ヘッダー ファイル\main\manager\transition\tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="tutorial_score_attack.h">
+      <Filter>ヘッダー ファイル\main\manager\transition\tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\main\manager\transition</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClear.h">
+      <Filter>ヘッダー ファイル\main\manager\transition</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\main\manager\transition</Filter>
+    </ClInclude>
+    <ClInclude Include="score_attack.h">
+      <Filter>ヘッダー ファイル\main\manager\transition</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreScreen.h">
+      <Filter>ヘッダー ファイル\main\manager\transition</Filter>
+    </ClInclude>
+    <ClInclude Include="select.h">
+      <Filter>ヘッダー ファイル\main\manager\transition</Filter>
+    </ClInclude>
+    <ClInclude Include="ranking.h">
+      <Filter>ヘッダー ファイル\main\manager\transition\ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol_ranking.h">
+      <Filter>ヘッダー ファイル\main\manager\transition\ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>ヘッダー ファイル\main\manager\input</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>ヘッダー ファイル\main\manager\input</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\main\manager\input</Filter>
+    </ClInclude>
+    <ClInclude Include="mode.h">
+      <Filter>ヘッダー ファイル\main\manager\transition</Filter>
+    </ClInclude>
+    <ClInclude Include="scene2d.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClInclude>
+    <ClInclude Include="barrier.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClInclude>
+    <ClInclude Include="door.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene\scene2d</Filter>
+    </ClInclude>
+    <ClInclude Include="bg.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="life.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="start_count.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\main\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル\main\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="number.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_client.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>ヘッダー ファイル\main\manager\renderer\scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
